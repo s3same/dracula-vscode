@@ -1,0 +1,23 @@
+{
+  "name": "dracula",
+  "displayName": "Dracula",
+  "description": "Dracula Color Theme",
+  "version": "2.24.3",
+  "publisher": "s3same",
+  "icon": "icons/demon.png",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dracula",
+        "uiTheme": "vs-dark",
+        "path": "./themes/color-theme.json"
+      }
+    ]
+  }
+}
